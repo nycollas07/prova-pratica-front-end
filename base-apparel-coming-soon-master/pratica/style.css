@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+body{
+    font-family: "Josefin Sans", sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/base-apparel-coming-soon-master/images/bg-pattern-desktop.svg);
+    width: 550px;
+    height: 600px;
+    padding: 30px;
+    box-shadow: 10px  rgba(0, 0, 0, 0.2);
+}
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/base-apparel-coming-soon-master/images/hero-desktop.jpg);
+    width: 500px;
+    height: 600px;
+    box-shadow: 10px 15px rgba(0, 0, 0, 0.2);
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    
+}
+.text{
+    color: hsl(0, 36%, 70%);
+
+}
+h2{
+    font-size: 60px;
+    font-weight: 300;
+}
+p{
+    font-size: 16px;
+}
+span{
+    font-size: 60px;
+    font-weight: 500;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 400px; 
+    margin: 0 auto;
+}
+
+input {
+    flex: 1;
+    padding: 15px;
+    font-size: 16px;
+    border: hsl(0, 93%, 68%) solid;
+    border-right: none;
+    border-radius: 50px;
+    outline: none;
+}
+
+button {
+    padding: 15px;
+    border: hsl(0, 93%, 68%) solid;
+    border-radius: 50px;
+    background: hsl(0, 93%, 68%);
+    cursor: pointer;
+}
+
+button:hover {
+    transform:scale(1.5);
+}
